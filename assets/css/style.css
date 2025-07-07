@@ -1865,3 +1865,41 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+/* for the resume download with seprate section withon the resume page*/
+
+/* .download-resume {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.download-resume a {
+  display: inline-block;
+  margin-top: 1rem;
+} */
+
+/* for the resume download without the  seprate section within the resume page*/
+
+.article-title a.form-btn {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+  /* advance lvl with proper color buttom and the hovwe effect in the nav bar */
+.navbar-resume-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #4e9eff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-resume-btn:hover {
+  background-color: #2e80dc;
+}
