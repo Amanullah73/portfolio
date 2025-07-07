@@ -157,3 +157,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// trigger a message or alert immediately after the user clicks the download link 
+
+const downloadBtn = document.getElementById("download-resume-btn");
+
+if (downloadBtn) {
+  downloadBtn.addEventListener("click", function () {
+    setTimeout(() => {
+      alert("Resume downloded!");
+    }, 500); // Slight delay to let the browser start the download
+  });
+}
